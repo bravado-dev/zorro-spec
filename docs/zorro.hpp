@@ -42,6 +42,13 @@ struct Branch {
   std::string name;
 };
 
+class Hasher {
+public:
+  void Update(const std::byte *b, size_t len);
+};
+
+class Repository {};
+
 } // namespace zorro
 
 #endif
