@@ -1,0 +1,4 @@
+# zorro vcs config
+
+[core]
+hash = "BLAKE3"
